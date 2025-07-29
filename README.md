@@ -50,5 +50,6 @@ Right-click → Run as administrator
 In the PowerShell window (running as admin), type the following command:
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
 When prompted with “Do you want to change the execution policy?”, type Y and press Enter.
 
