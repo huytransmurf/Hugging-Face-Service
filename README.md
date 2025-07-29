@@ -7,6 +7,7 @@ Integrate this API into an ASP.NET Core application for semantic storage and que
 
 🧰 1. Set Up Python Environment
 ✅ Step 1: Install Python
+
 Go to the official website: https://www.python.org/downloads
 
 Download Python version 3.10 or above.
@@ -14,20 +15,29 @@ Download Python version 3.10 or above.
 During installation, make sure to check the option “Add Python to PATH”.
 
 🔍 Verify the installation
+
 Open CMD or PowerShell and run:
+
 python --version
+
 Example output: Python 3.10.13
 
 🧱 2. Create a Virtual Environment
+
 mkdir embedding_api
+
 cd embedding_api
+
 python -m venv venv
+
 venv\Scripts\activate  # Windows
 
 📦 3. Install Required Packages
+
 pip install flask sentence-transformers numpy
 
 🚀 4. Run the Flask API
+
 In the directory where app.py is located, run:
 
 python app.py
@@ -47,6 +57,7 @@ Type PowerShell
 Right-click → Run as administrator
 
 ⚙️ Step 2: Temporarily Allow Script Execution
+
 In the PowerShell window (running as admin), type the following command:
 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
